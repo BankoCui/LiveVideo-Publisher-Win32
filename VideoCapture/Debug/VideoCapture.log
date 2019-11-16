@@ -1,0 +1,51 @@
+﻿生成启动时间为 2019/11/16 16:25:48。
+     1>项目“E:\VisualCpp2010Project\MFC_Project\VideoCapture\VideoCapture\VideoCapture.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VideoCapture.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\Win7Ultimate64OS\VS2010\VC\bin\CL.exe /c /I.\third_party\x264\include /I.\third_party\x264\include\win32 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D __STDC_CONSTANT_MACROS /D WIN32_LEAN_AND_MEAN /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\VideoCapture.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AvEncoder.cpp Packetizer.cpp PublishConnection.cpp
+         PublishConnection.cpp
+         Packetizer.cpp
+     1>e:\visualcpp2010project\mfc_project\videocapture\videocapture\packetizer.cpp(54): warning C4309: “=”: 截断常量值
+     1>e:\visualcpp2010project\mfc_project\videocapture\videocapture\packetizer.cpp(57): warning C4309: “=”: 截断常量值
+         AvEncoder.cpp
+         You must include stdint.h or inttypes.h before x264.h
+         正在生成代码...
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\Win7Ultimate64OS\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualCpp2010Project\MFC_Project\VideoCapture\Debug\VideoCapture.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\third_party\x264\lib winmm.lib /MANIFEST /ManifestFile:"Debug\VideoCapture.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VisualCpp2010Project\MFC_Project\VideoCapture\Debug\VideoCapture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualCpp2010Project\MFC_Project\VideoCapture\Debug\VideoCapture.lib" /MACHINE:X86 Debug\VideoCapture.res
+         Debug\VideoCapture.exe.embed.manifest.res
+         Debug\AvEncoder.obj
+         Debug\AvPublisher.obj
+         Debug\H264encoder.obj
+         Debug\amf.obj
+         Debug\log.obj
+         Debug\parseurl.obj
+         Debug\rtmp.obj
+         Debug\Packetizer.obj
+         Debug\PublishConnection.obj
+         Debug\stdafx.obj
+         Debug\text_water_mark.obj
+         Debug\Utils.obj
+         Debug\VideoCapture.obj
+         Debug\VideoCaptureDlg.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\VideoCapture.exe.embed.manifest" /manifest Debug\VideoCapture.exe.intermediate.manifest E:\Win7Ultimate64OS\VS2010\VC\Include\Manifest\dpiaware.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         VideoCapture.vcxproj -> E:\VisualCpp2010Project\MFC_Project\VideoCapture\Debug\VideoCapture.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VideoCapture.unsuccessfulbuild”。
+         正在对“Debug\VideoCapture.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VisualCpp2010Project\MFC_Project\VideoCapture\VideoCapture\VideoCapture.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.00
